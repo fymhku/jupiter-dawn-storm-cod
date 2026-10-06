@@ -1,0 +1,7 @@
+# Optional dependencies for historical MVA and spreadsheet scripts.
+# Use a separate environment; legacy scripts are not part of the supported runner.
+-r requirements.txt
+pandas>=2.0,<3.0
+xarray
+pyrfu
+openpyxl
