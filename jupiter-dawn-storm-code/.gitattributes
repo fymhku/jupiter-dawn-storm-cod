@@ -1,0 +1,6 @@
+* text eol=lf
+# Preserve archived byte-level checksums across Git checkouts.
+original/** -text
+data/*.csv -text
+*.npz binary
+*.png binary

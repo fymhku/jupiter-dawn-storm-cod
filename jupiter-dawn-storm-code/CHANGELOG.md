@@ -1,18 +1,15 @@
-# Packaging changes — 2026-10-05
+# Proposed v1.1.0 (local candidate, 2026-10-18)
 
-- Collected supplied Juno scripts, utility modules and polynomial solvers.
-- Added the May 10 quiet-period plotting scripts from the manuscript folder.
-- Kept a byte-identical historical source snapshot under `legacy/`.
-- Made supported workflows use relative paths or environment variables.
-- Set the main default event to May 16, 2-5 mHz band-pass, and aligned the
-  selected interval to 09:17:40-09:46:44 UTC in the current main text and SM.
-- Preserved the existing CWT grids, decomposition, filtering, wavelet-power
-  calculation and polynomial coefficient arrays.
-- Clarified metadata and stale quiet-panel comments; made percentile-band
-  labels explicit; added a fallback font to working theory copies.
-- Added a common runner, dependency lists, archive links, figure mapping,
-  implementation notes and a source manifest.
-- Excluded `.claude`, caches, generated figures, vendored libraries, wheels,
-  THEMIS data, reference-paper text extracts and manuscripts.
-- No source files in the original analysis or manuscript folders changed.
-- No repository, author metadata, software license or DOI was invented.
+- Integrate the calibrated, demeaned, COI-masked one-sided wavelet PSD.
+- Use the current 3.5–50 mHz PSD display range for Fig4 and S3(d,e), while
+  retaining every source frequency and the parallel peak outside that range.
+- Bundle only the two 2017 event windows, full PSD tables, original CWT
+  amplitude arrays, historical comparison spectra and Welch references.
+- Provide a portable entry point and separate generated outputs from inputs.
+- Preserve original theory root scripts and record exact reproduction scope.
+- Add bilingual documentation, citation metadata, checksums and upload guide.
+- No software license selected; no new DOI assigned or upload performed.
+
+The previously supplied Zenodo citation was v1.0.1,
+https://doi.org/10.5281/zenodo.23184052. That identifier has not been
+relabelled as the DOI of this new candidate.

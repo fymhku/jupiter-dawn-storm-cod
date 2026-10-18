@@ -1,0 +1,280 @@
+{
+  "status": "complete",
+  "final_precision": 20,
+  "wavelet": "cmor1.5-1.0",
+  "sampling_interval_seconds": 1.0,
+  "PSD_units": "nT^2/Hz",
+  "PSD_formula": "2*dt*mean_valid(abs(W_s[n])**2)/sum_k(abs(h_s[k])**2)",
+  "preprocessing": "Original nonoverlapping 1200-s vector-mean decomposition, then subtract the scalar mean of each complete-window component before CWT. No band-pass filter or taper.",
+  "COI_formula": "margin_samples=ceil(sqrt(1.5)*scale); retain indices margin through N-margin-1",
+  "COI_convention": "Complex-Morlet power envelope exp(-2*u^2/1.5); excluded boundary extends to e^-2 of its peak power.",
+  "scope": "PSD curves only; existing Fig3 and FigS3 CWT amplitude maps are unchanged and use their original preprocessing.",
+  "peak_rule": "Highest plateau-aware interior local maximum; endpoints excluded; no interpolation, fitting, or significance threshold.",
+  "units_and_limit": "Frequency-smoothed one-sided PSD estimator calibrated by actual filter energy. Its numerical integration over center frequencies is not asserted to reproduce variance exactly.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "PyWavelets_distribution": "1.10.0",
+    "pywt_module_string": "1.8.0"
+  },
+  "runtime": {
+    "cwt_signature": "(data, scales, wavelet, sampling_period=1.0, method='conv', axis=-1, *, precision=12)",
+    "cwt_source_file": "_cwt.py",
+    "cwt_source_SHA256": "2bdfe87b0a326e51fbcf7f444276097c1179d42c29130619eadda4984073036b",
+    "script_SHA256": "b3c30509f4032709a533f4eea0fd6f00742b11a69c0844be068d8c6431103fe7",
+    "version_note": "The local installed PyWavelets distribution metadata and module string differ; both plus source hash are recorded. The script requires the public precision keyword and does not monkeypatch PyWavelets."
+  },
+  "events": {
+    "main": {
+      "date": "2017_05_16",
+      "analysis_window_UTC": [
+        "2017-05-16 07:52:00",
+        "2017-05-16 10:03:00"
+      ],
+      "N": 7861,
+      "input_path": "main_timeseries.csv",
+      "input_sha256": "fe96ca2bb8bdeef4f7b5d9bbef701b69ab641abccae3a1dde7741723bb1bf7de",
+      "PSD_frequency_range_Hz": [
+        0.003000000000000001,
+        0.049999999999999996
+      ],
+      "n_frequencies": 200,
+      "N_valid_min_max": [
+        7043,
+        7811
+      ],
+      "COI_margin_samples_min_max": [
+        25,
+        409
+      ],
+      "components": {
+        "Bperp": {
+          "subtracted_full_window_mean_nT": 0.7551843845942533,
+          "old_raw_spectrum_peaks": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 3.8488965203321306
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 24,
+              "frequency_Hz": 0.004211917906742496,
+              "value": 3.8488965203321306
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 3.8488965203321306
+              }
+            ],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.003000000000000001,
+              "value": 4.511574706919677,
+              "is_endpoint": true
+            }
+          },
+          "new_PSD_peaks": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 25.139721745703785
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 24,
+              "frequency_Hz": 0.004211917906742496,
+              "value": 25.139721745703785
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 25.139721745703785
+              }
+            ],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.003000000000000001,
+              "value": 29.986322871690437,
+              "is_endpoint": true
+            }
+          },
+          "old_cache_path": "main_Bperp_original_raw_spectrum.csv",
+          "old_cache_sha256": "967aa6192b6c40311c89f32bc347e2d4f57a56b1d835f49b32db8c59524394a4",
+          "highest_local_peak_frequency_change_Hz": 0.0,
+          "new_PSD_value_at_old_highest_local_peak": 25.139721745703785
+        },
+        "Bparallel": {
+          "subtracted_full_window_mean_nT": 10.103738217843672,
+          "old_raw_spectrum_peaks": {
+            "all_local_maxima_in_frequency_order": [],
+            "highest_interior_local_maximum": null,
+            "all_local_maxima_above_3mHz": [],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.003000000000000001,
+              "value": 29.90201165345209,
+              "is_endpoint": true
+            }
+          },
+          "new_PSD_peaks": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254545408452515
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 8,
+              "frequency_Hz": 0.0033592382166347926,
+              "value": 37.254545408452515
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254545408452515
+              }
+            ],
+            "global_maximum": {
+              "index": 8,
+              "frequency_Hz": 0.0033592382166347926,
+              "value": 37.254545408452515,
+              "is_endpoint": false
+            }
+          },
+          "old_cache_path": "main_Bparallel_original_raw_spectrum.csv",
+          "old_cache_sha256": "854edb813c4556b2ec6df73e0ceb5d924ce7afb915e280c1d916c8db883d265a",
+          "highest_local_peak_frequency_change_Hz": null,
+          "new_PSD_value_at_old_highest_local_peak": null
+        }
+      },
+      "fci_IQR_Hz": [
+        0.0038250449843684094,
+        0.006413020737400884
+      ],
+      "fci_IQR_provenance": "Preserved manuscript IQR for 09:17:40-09:46:44 UT; no PSD-dependent change"
+    },
+    "quiet": {
+      "date": "2017_05_10",
+      "analysis_window_UTC": [
+        "2017-05-10 08:00:00",
+        "2017-05-10 10:00:00"
+      ],
+      "N": 7201,
+      "input_path": "quiet_timeseries.csv",
+      "input_sha256": "3484133757ab848388728b3fc1172f6ad1ac3a5460e28146a0f6def8784ef503",
+      "PSD_frequency_range_Hz": [
+        0.001,
+        0.049999999999999996
+      ],
+      "n_frequencies": 200,
+      "N_valid_min_max": [
+        4751,
+        7151
+      ],
+      "COI_margin_samples_min_max": [
+        25,
+        1225
+      ],
+      "components": {
+        "Bperp": {
+          "subtracted_full_window_mean_nT": 0.5200113681676973,
+          "old_raw_spectrum_peaks": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 6,
+                "frequency_Hz": 0.0011251883483230738,
+                "value": 46.07382812895191
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.002779405809444611,
+                "value": 3.0539505920546923
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 6,
+              "frequency_Hz": 0.0011251883483230738,
+              "value": 46.07382812895191
+            },
+            "all_local_maxima_above_3mHz": [],
+            "global_maximum": {
+              "index": 6,
+              "frequency_Hz": 0.0011251883483230738,
+              "value": 46.07382812895191,
+              "is_endpoint": false
+            }
+          },
+          "new_PSD_peaks": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 408.77676595091685
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.002779405809444611,
+                "value": 21.36085509265175
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 4,
+              "frequency_Hz": 0.0010818079056011088,
+              "value": 408.77676595091685
+            },
+            "all_local_maxima_above_3mHz": [],
+            "global_maximum": {
+              "index": 4,
+              "frequency_Hz": 0.0010818079056011088,
+              "value": 408.77676595091685,
+              "is_endpoint": false
+            }
+          },
+          "old_cache_path": "quiet_Bperp_original_raw_spectrum.csv",
+          "old_cache_sha256": "331e2d5af0c129bfaa4337b034ec6e8c3b7cca75342fe9765d49b8d38fbbcf13",
+          "highest_local_peak_frequency_change_Hz": -4.338044272196497e-05,
+          "new_PSD_value_at_old_highest_local_peak": 405.4680427792657
+        },
+        "Bparallel": {
+          "subtracted_full_window_mean_nT": 4.605844813166582,
+          "old_raw_spectrum_peaks": {
+            "all_local_maxima_in_frequency_order": [],
+            "highest_interior_local_maximum": null,
+            "all_local_maxima_above_3mHz": [],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.001,
+              "value": 142.2633262997535,
+              "is_endpoint": true
+            }
+          },
+          "new_PSD_peaks": {
+            "all_local_maxima_in_frequency_order": [],
+            "highest_interior_local_maximum": null,
+            "all_local_maxima_above_3mHz": [],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.001,
+              "value": 907.1398434538743,
+              "is_endpoint": true
+            }
+          },
+          "old_cache_path": "quiet_Bparallel_original_raw_spectrum.csv",
+          "old_cache_sha256": "c534ec64201700d565c6003649fbd8841b0fc0677b77bbafd787d36971a192f9",
+          "highest_local_peak_frequency_change_Hz": null,
+          "new_PSD_value_at_old_highest_local_peak": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1794 @@
+{
+  "status": "complete",
+  "kernel_alignment": {
+    "scales": [
+      2.0,
+      2.25,
+      3.0,
+      19.25,
+      20.0,
+      20.0625,
+      237.421534
+    ],
+    "pulse_reconstruction_vs_pywt_conv": {
+      "max_absolute": 1.8699926420777747e-14,
+      "relative_L2": 6.0999825552092246e-15,
+      "max_pointwise_relative": 1.9452532369886573e-13
+    },
+    "pywt_fft_vs_conv": {
+      "max_absolute": 1.8780826186484578e-14,
+      "relative_L2": 6.4808441366438984e-15,
+      "max_pointwise_relative": 3.7610285194526845e-13
+    },
+    "pass": true
+  },
+  "events": {
+    "main": {
+      "components": {
+        "Bperp": {
+          "original_cache_reproduction": {
+            "max_absolute": 0.0,
+            "relative_L2": 0.0,
+            "max_pointwise_relative": 0.0,
+            "status": "checked",
+            "pass": true,
+            "note": "Historical reproduction is reported independently; a different library's legacy behavior does not prevent the calibrated calculation or its tests."
+          },
+          "precision12_vs_final": {
+            "max_absolute": 6.960641449912284,
+            "relative_L2": 0.13175176190652368,
+            "max_pointwise_relative": 0.3022990426389192
+          },
+          "precision16_vs_final": {
+            "max_absolute": 0.04581714566551298,
+            "relative_L2": 0.0007918543279161565,
+            "max_pointwise_relative": 0.0015945740257478286
+          },
+          "precision18_vs_final": {
+            "max_absolute": 0.002532801913908145,
+            "relative_L2": 4.203199803186227e-05,
+            "max_pointwise_relative": 9.181888019021773e-05
+          },
+          "precision_peaks": {
+            "12": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 22,
+                  "frequency_Hz": 0.004094491849644177,
+                  "value": 23.87001937488334
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 22,
+                "frequency_Hz": 0.004094491849644177,
+                "value": 23.87001937488334
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 22,
+                  "frequency_Hz": 0.004094491849644177,
+                  "value": 23.87001937488334
+                }
+              ],
+              "global_maximum": {
+                "index": 22,
+                "frequency_Hz": 0.004094491849644177,
+                "value": 23.87001937488334,
+                "is_endpoint": false
+              }
+            },
+            "16": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.12384033251005
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 25.12384033251005
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.12384033251005
+                }
+              ],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.003000000000000001,
+                "value": 29.945845192975746,
+                "is_endpoint": true
+              }
+            },
+            "18": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.139694913788354
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 25.139694913788354
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.139694913788354
+                }
+              ],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.003000000000000001,
+                "value": 29.98491120422574,
+                "is_endpoint": true
+              }
+            },
+            "20": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.139721745703785
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 24,
+                "frequency_Hz": 0.004211917906742496,
+                "value": 25.139721745703785
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 24,
+                  "frequency_Hz": 0.004211917906742496,
+                  "value": 25.139721745703785
+                }
+              ],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.003000000000000001,
+                "value": 29.986322871690437,
+                "is_endpoint": true
+              }
+            }
+          },
+          "Welch_peaks_in_same_frequency_band": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 2,
+                "frequency_Hz": 0.00439453125,
+                "value": 38.19553544891806
+              },
+              {
+                "index": 6,
+                "frequency_Hz": 0.00634765625,
+                "value": 10.516499427867435
+              },
+              {
+                "index": 9,
+                "frequency_Hz": 0.0078125,
+                "value": 6.078363391817004
+              },
+              {
+                "index": 12,
+                "frequency_Hz": 0.00927734375,
+                "value": 4.441556257417041
+              },
+              {
+                "index": 15,
+                "frequency_Hz": 0.0107421875,
+                "value": 5.81837246658315
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01318359375,
+                "value": 5.236654635310468
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.015625,
+                "value": 1.9384059997271912
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0166015625,
+                "value": 1.4854637807065247
+              },
+              {
+                "index": 31,
+                "frequency_Hz": 0.0185546875,
+                "value": 2.994132845718269
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.021484375,
+                "value": 0.8158753064550978
+              },
+              {
+                "index": 39,
+                "frequency_Hz": 0.0224609375,
+                "value": 1.345056515458035
+              },
+              {
+                "index": 44,
+                "frequency_Hz": 0.02490234375,
+                "value": 0.690363413853711
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02587890625,
+                "value": 0.9125073319851434
+              },
+              {
+                "index": 50,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.6808160377781053
+              },
+              {
+                "index": 53,
+                "frequency_Hz": 0.029296875,
+                "value": 0.4714646504309137
+              },
+              {
+                "index": 55,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.44404379920502485
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.464050634037233
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0341796875,
+                "value": 0.7876537131556898
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03564453125,
+                "value": 0.3582989901119064
+              },
+              {
+                "index": 68,
+                "frequency_Hz": 0.03662109375,
+                "value": 0.4082065752669841
+              },
+              {
+                "index": 70,
+                "frequency_Hz": 0.03759765625,
+                "value": 0.3495623950693821
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.5672121445749626
+              },
+              {
+                "index": 78,
+                "frequency_Hz": 0.04150390625,
+                "value": 0.5522545096754073
+              },
+              {
+                "index": 84,
+                "frequency_Hz": 0.04443359375,
+                "value": 0.3255511691643623
+              },
+              {
+                "index": 87,
+                "frequency_Hz": 0.0458984375,
+                "value": 0.3335665497238787
+              },
+              {
+                "index": 94,
+                "frequency_Hz": 0.04931640625,
+                "value": 0.34663971602393046
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 2,
+              "frequency_Hz": 0.00439453125,
+              "value": 38.19553544891806
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 2,
+                "frequency_Hz": 0.00439453125,
+                "value": 38.19553544891806
+              },
+              {
+                "index": 6,
+                "frequency_Hz": 0.00634765625,
+                "value": 10.516499427867435
+              },
+              {
+                "index": 9,
+                "frequency_Hz": 0.0078125,
+                "value": 6.078363391817004
+              },
+              {
+                "index": 12,
+                "frequency_Hz": 0.00927734375,
+                "value": 4.441556257417041
+              },
+              {
+                "index": 15,
+                "frequency_Hz": 0.0107421875,
+                "value": 5.81837246658315
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01318359375,
+                "value": 5.236654635310468
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.015625,
+                "value": 1.9384059997271912
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0166015625,
+                "value": 1.4854637807065247
+              },
+              {
+                "index": 31,
+                "frequency_Hz": 0.0185546875,
+                "value": 2.994132845718269
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.021484375,
+                "value": 0.8158753064550978
+              },
+              {
+                "index": 39,
+                "frequency_Hz": 0.0224609375,
+                "value": 1.345056515458035
+              },
+              {
+                "index": 44,
+                "frequency_Hz": 0.02490234375,
+                "value": 0.690363413853711
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02587890625,
+                "value": 0.9125073319851434
+              },
+              {
+                "index": 50,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.6808160377781053
+              },
+              {
+                "index": 53,
+                "frequency_Hz": 0.029296875,
+                "value": 0.4714646504309137
+              },
+              {
+                "index": 55,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.44404379920502485
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.464050634037233
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0341796875,
+                "value": 0.7876537131556898
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03564453125,
+                "value": 0.3582989901119064
+              },
+              {
+                "index": 68,
+                "frequency_Hz": 0.03662109375,
+                "value": 0.4082065752669841
+              },
+              {
+                "index": 70,
+                "frequency_Hz": 0.03759765625,
+                "value": 0.3495623950693821
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.5672121445749626
+              },
+              {
+                "index": 78,
+                "frequency_Hz": 0.04150390625,
+                "value": 0.5522545096754073
+              },
+              {
+                "index": 84,
+                "frequency_Hz": 0.04443359375,
+                "value": 0.3255511691643623
+              },
+              {
+                "index": 87,
+                "frequency_Hz": 0.0458984375,
+                "value": 0.3335665497238787
+              },
+              {
+                "index": 94,
+                "frequency_Hz": 0.04931640625,
+                "value": 0.34663971602393046
+              }
+            ],
+            "global_maximum": {
+              "index": 2,
+              "frequency_Hz": 0.00439453125,
+              "value": 38.19553544891806,
+              "is_endpoint": false
+            }
+          },
+          "Welch_band_integral_nT2": 0.11660979265991282,
+          "wavelet_band_integral_nT2": 0.12133878961573458,
+          "Welch_preprocessing": "Same full-record mean-subtracted component. Hann segments 2048 samples; 50% overlap; no per-segment detrending. Wavelet uses frequency-dependent COI masks, so effective time/frequency smoothing differs."
+        },
+        "Bparallel": {
+          "original_cache_reproduction": {
+            "max_absolute": 0.0,
+            "relative_L2": 0.0,
+            "max_pointwise_relative": 0.0,
+            "status": "checked",
+            "pass": true,
+            "note": "Historical reproduction is reported independently; a different library's legacy behavior does not prevent the calibrated calculation or its tests."
+          },
+          "precision12_vs_final": {
+            "max_absolute": 8.102199360448761,
+            "relative_L2": 0.13976812129819063,
+            "max_pointwise_relative": 0.3021819478136794
+          },
+          "precision16_vs_final": {
+            "max_absolute": 0.05635495239464916,
+            "relative_L2": 0.0008701866893751182,
+            "max_pointwise_relative": 0.001594165677683217
+          },
+          "precision18_vs_final": {
+            "max_absolute": 0.0032899111395892078,
+            "relative_L2": 4.884375594768747e-05,
+            "max_pointwise_relative": 9.177147993655142e-05
+          },
+          "precision_peaks": {
+            "12": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 13,
+                  "frequency_Hz": 0.0036052926216856673,
+                  "value": 33.30970069799527
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 13,
+                "frequency_Hz": 0.0036052926216856673,
+                "value": 33.30970069799527
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 13,
+                  "frequency_Hz": 0.0036052926216856673,
+                  "value": 33.30970069799527
+                }
+              ],
+              "global_maximum": {
+                "index": 13,
+                "frequency_Hz": 0.0036052926216856673,
+                "value": 33.30970069799527,
+                "is_endpoint": false
+              }
+            },
+            "16": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.218709263612055
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.218709263612055
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.218709263612055
+                }
+              ],
+              "global_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.218709263612055,
+                "is_endpoint": false
+              }
+            },
+            "18": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.254203864873695
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254203864873695
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.254203864873695
+                }
+              ],
+              "global_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254203864873695,
+                "is_endpoint": false
+              }
+            },
+            "20": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.254545408452515
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254545408452515
+              },
+              "all_local_maxima_above_3mHz": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0033592382166347926,
+                  "value": 37.254545408452515
+                }
+              ],
+              "global_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0033592382166347926,
+                "value": 37.254545408452515,
+                "is_endpoint": false
+              }
+            }
+          },
+          "Welch_peaks_in_same_frequency_band": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 5,
+                "frequency_Hz": 0.005859375,
+                "value": 19.013898900876807
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00732421875,
+                "value": 6.036677598921172
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.009765625,
+                "value": 4.139359405041411
+              },
+              {
+                "index": 17,
+                "frequency_Hz": 0.01171875,
+                "value": 2.785970112907686
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01318359375,
+                "value": 2.283173054193472
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.015625,
+                "value": 1.2529730839405349
+              },
+              {
+                "index": 29,
+                "frequency_Hz": 0.017578125,
+                "value": 1.2342977445024772
+              },
+              {
+                "index": 33,
+                "frequency_Hz": 0.01953125,
+                "value": 1.1832111243099876
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.021484375,
+                "value": 1.171130472965945
+              },
+              {
+                "index": 42,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.42368170985210335
+              },
+              {
+                "index": 45,
+                "frequency_Hz": 0.025390625,
+                "value": 0.8569051750280606
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.02734375,
+                "value": 0.38458907125418773
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.02880859375,
+                "value": 0.4427516527269109
+              },
+              {
+                "index": 56,
+                "frequency_Hz": 0.03076171875,
+                "value": 0.3496621435862626
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.12103968521741341
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0341796875,
+                "value": 0.3638576237897357
+              },
+              {
+                "index": 67,
+                "frequency_Hz": 0.0361328125,
+                "value": 0.23807102016209558
+              },
+              {
+                "index": 69,
+                "frequency_Hz": 0.037109375,
+                "value": 0.2151931327646511
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.30051860559995397
+              },
+              {
+                "index": 76,
+                "frequency_Hz": 0.04052734375,
+                "value": 0.28006325139951294
+              },
+              {
+                "index": 81,
+                "frequency_Hz": 0.04296875,
+                "value": 0.28204231292987664
+              },
+              {
+                "index": 86,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.1724231966692922
+              },
+              {
+                "index": 88,
+                "frequency_Hz": 0.04638671875,
+                "value": 0.14407372433443819
+              },
+              {
+                "index": 91,
+                "frequency_Hz": 0.0478515625,
+                "value": 0.11510653404574507
+              },
+              {
+                "index": 93,
+                "frequency_Hz": 0.048828125,
+                "value": 0.1024899244498867
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 5,
+              "frequency_Hz": 0.005859375,
+              "value": 19.013898900876807
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 5,
+                "frequency_Hz": 0.005859375,
+                "value": 19.013898900876807
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00732421875,
+                "value": 6.036677598921172
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.009765625,
+                "value": 4.139359405041411
+              },
+              {
+                "index": 17,
+                "frequency_Hz": 0.01171875,
+                "value": 2.785970112907686
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01318359375,
+                "value": 2.283173054193472
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.015625,
+                "value": 1.2529730839405349
+              },
+              {
+                "index": 29,
+                "frequency_Hz": 0.017578125,
+                "value": 1.2342977445024772
+              },
+              {
+                "index": 33,
+                "frequency_Hz": 0.01953125,
+                "value": 1.1832111243099876
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.021484375,
+                "value": 1.171130472965945
+              },
+              {
+                "index": 42,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.42368170985210335
+              },
+              {
+                "index": 45,
+                "frequency_Hz": 0.025390625,
+                "value": 0.8569051750280606
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.02734375,
+                "value": 0.38458907125418773
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.02880859375,
+                "value": 0.4427516527269109
+              },
+              {
+                "index": 56,
+                "frequency_Hz": 0.03076171875,
+                "value": 0.3496621435862626
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.12103968521741341
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0341796875,
+                "value": 0.3638576237897357
+              },
+              {
+                "index": 67,
+                "frequency_Hz": 0.0361328125,
+                "value": 0.23807102016209558
+              },
+              {
+                "index": 69,
+                "frequency_Hz": 0.037109375,
+                "value": 0.2151931327646511
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.30051860559995397
+              },
+              {
+                "index": 76,
+                "frequency_Hz": 0.04052734375,
+                "value": 0.28006325139951294
+              },
+              {
+                "index": 81,
+                "frequency_Hz": 0.04296875,
+                "value": 0.28204231292987664
+              },
+              {
+                "index": 86,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.1724231966692922
+              },
+              {
+                "index": 88,
+                "frequency_Hz": 0.04638671875,
+                "value": 0.14407372433443819
+              },
+              {
+                "index": 91,
+                "frequency_Hz": 0.0478515625,
+                "value": 0.11510653404574507
+              },
+              {
+                "index": 93,
+                "frequency_Hz": 0.048828125,
+                "value": 0.1024899244498867
+              }
+            ],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.00341796875,
+              "value": 37.29470874829685,
+              "is_endpoint": true
+            }
+          },
+          "Welch_band_integral_nT2": 0.08834044817561917,
+          "wavelet_band_integral_nT2": 0.11098148497687622,
+          "Welch_preprocessing": "Same full-record mean-subtracted component. Hann segments 2048 samples; 50% overlap; no per-segment detrending. Wavelet uses frequency-dependent COI masks, so effective time/frequency smoothing differs."
+        }
+      },
+      "filter_response": {
+        "minimum_mainband_energy_fraction": 0.9998735554166148,
+        "maximum_negative_frequency_energy_fraction": 3.055555499646322e-06,
+        "Q_min_max": [
+          0.3230206613851937,
+          0.32572719964037855
+        ],
+        "white_noise_gain_after_COI_min_max": [
+          0.999510470686905,
+          0.9999769904785825
+        ],
+        "remaining_edge_effect": "COI removes the conventional power e^-2 boundary region, not all nonzero wavelet tails. Residual finite-record white-noise gain is reported, not renormalized away."
+      },
+      "precision18_vs_final_max_relative_difference": 9.181888019021773e-05,
+      "precision18_vs_final_below_0_1percent": true
+    },
+    "quiet": {
+      "components": {
+        "Bperp": {
+          "original_cache_reproduction": {
+            "max_absolute": 0.0,
+            "relative_L2": 0.0,
+            "max_pointwise_relative": 0.0,
+            "status": "checked",
+            "pass": true,
+            "note": "Historical reproduction is reported independently; a different library's legacy behavior does not prevent the calibrated calculation or its tests."
+          },
+          "precision12_vs_final": {
+            "max_absolute": 296.21642552198733,
+            "relative_L2": 2.2335101458188755,
+            "max_pointwise_relative": 2.906924008230169
+          },
+          "precision16_vs_final": {
+            "max_absolute": 5.0354709910063775,
+            "relative_L2": 0.008328798026243247,
+            "max_pointwise_relative": 0.01247202367918886
+          },
+          "precision18_vs_final": {
+            "max_absolute": 0.3180179752700951,
+            "relative_L2": 0.0004943431205578304,
+            "max_pointwise_relative": 0.0008231976153129415
+          },
+          "precision_peaks": {
+            "12": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 8,
+                  "frequency_Hz": 0.0011703083446210575,
+                  "value": 117.58082344507481
+                },
+                {
+                  "index": 54,
+                  "frequency_Hz": 0.002890859842913439,
+                  "value": 15.388268677969364
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0011703083446210575,
+                "value": 117.58082344507481
+              },
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 8,
+                "frequency_Hz": 0.0011703083446210575,
+                "value": 117.58082344507481,
+                "is_endpoint": false
+              }
+            },
+            "16": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 4,
+                  "frequency_Hz": 0.0010818079056011088,
+                  "value": 403.7412949599105
+                },
+                {
+                  "index": 52,
+                  "frequency_Hz": 0.002779405809444611,
+                  "value": 21.32201482812707
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 403.7412949599105
+              },
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 403.7412949599105,
+                "is_endpoint": false
+              }
+            },
+            "18": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 4,
+                  "frequency_Hz": 0.0010818079056011088,
+                  "value": 408.5245713586592
+                },
+                {
+                  "index": 52,
+                  "frequency_Hz": 0.002779405809444611,
+                  "value": 21.358376407705876
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 408.5245713586592
+              },
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 408.5245713586592,
+                "is_endpoint": false
+              }
+            },
+            "20": {
+              "all_local_maxima_in_frequency_order": [
+                {
+                  "index": 4,
+                  "frequency_Hz": 0.0010818079056011088,
+                  "value": 408.77676595091685
+                },
+                {
+                  "index": 52,
+                  "frequency_Hz": 0.002779405809444611,
+                  "value": 21.36085509265175
+                }
+              ],
+              "highest_interior_local_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 408.77676595091685
+              },
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 4,
+                "frequency_Hz": 0.0010818079056011088,
+                "value": 408.77676595091685,
+                "is_endpoint": false
+              }
+            }
+          },
+          "Welch_peaks_in_same_frequency_band": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 3,
+                "frequency_Hz": 0.0029296875,
+                "value": 21.704285843446346
+              },
+              {
+                "index": 5,
+                "frequency_Hz": 0.00390625,
+                "value": 6.803783837066658
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00537109375,
+                "value": 4.85966789999823
+              },
+              {
+                "index": 10,
+                "frequency_Hz": 0.00634765625,
+                "value": 3.471720617041735
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.0078125,
+                "value": 2.87043477714178
+              },
+              {
+                "index": 19,
+                "frequency_Hz": 0.0107421875,
+                "value": 1.6690682345095489
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.013671875,
+                "value": 1.146375709347841
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0146484375,
+                "value": 0.8102582552169107
+              },
+              {
+                "index": 30,
+                "frequency_Hz": 0.01611328125,
+                "value": 0.8101378059159758
+              },
+              {
+                "index": 33,
+                "frequency_Hz": 0.017578125,
+                "value": 0.5193249314106344
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.01953125,
+                "value": 0.35106303722018645
+              },
+              {
+                "index": 41,
+                "frequency_Hz": 0.021484375,
+                "value": 0.27965978763986793
+              },
+              {
+                "index": 44,
+                "frequency_Hz": 0.02294921875,
+                "value": 0.362143724816183
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.42321424441454264
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.025390625,
+                "value": 0.21140039985631198
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.02685546875,
+                "value": 0.18964969709259347
+              },
+              {
+                "index": 54,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.29156544972740395
+              },
+              {
+                "index": 56,
+                "frequency_Hz": 0.02880859375,
+                "value": 0.1885378863428873
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.2400757905629741
+              },
+              {
+                "index": 61,
+                "frequency_Hz": 0.03125,
+                "value": 0.2915328015221195
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03369140625,
+                "value": 0.09490390136454556
+              },
+              {
+                "index": 70,
+                "frequency_Hz": 0.03564453125,
+                "value": 0.14325450348392546
+              },
+              {
+                "index": 76,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.20141188277976244
+              },
+              {
+                "index": 78,
+                "frequency_Hz": 0.03955078125,
+                "value": 0.16083062064689282
+              },
+              {
+                "index": 81,
+                "frequency_Hz": 0.041015625,
+                "value": 0.1367406561243034
+              },
+              {
+                "index": 84,
+                "frequency_Hz": 0.04248046875,
+                "value": 0.1436855633463974
+              },
+              {
+                "index": 87,
+                "frequency_Hz": 0.0439453125,
+                "value": 0.13318988367701828
+              },
+              {
+                "index": 90,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.07968495572502711
+              },
+              {
+                "index": 92,
+                "frequency_Hz": 0.04638671875,
+                "value": 0.11634304565178306
+              },
+              {
+                "index": 97,
+                "frequency_Hz": 0.048828125,
+                "value": 0.09139045524190936
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 3,
+              "frequency_Hz": 0.0029296875,
+              "value": 21.704285843446346
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 5,
+                "frequency_Hz": 0.00390625,
+                "value": 6.803783837066658
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00537109375,
+                "value": 4.85966789999823
+              },
+              {
+                "index": 10,
+                "frequency_Hz": 0.00634765625,
+                "value": 3.471720617041735
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.0078125,
+                "value": 2.87043477714178
+              },
+              {
+                "index": 19,
+                "frequency_Hz": 0.0107421875,
+                "value": 1.6690682345095489
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.013671875,
+                "value": 1.146375709347841
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0146484375,
+                "value": 0.8102582552169107
+              },
+              {
+                "index": 30,
+                "frequency_Hz": 0.01611328125,
+                "value": 0.8101378059159758
+              },
+              {
+                "index": 33,
+                "frequency_Hz": 0.017578125,
+                "value": 0.5193249314106344
+              },
+              {
+                "index": 37,
+                "frequency_Hz": 0.01953125,
+                "value": 0.35106303722018645
+              },
+              {
+                "index": 41,
+                "frequency_Hz": 0.021484375,
+                "value": 0.27965978763986793
+              },
+              {
+                "index": 44,
+                "frequency_Hz": 0.02294921875,
+                "value": 0.362143724816183
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.42321424441454264
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.025390625,
+                "value": 0.21140039985631198
+              },
+              {
+                "index": 52,
+                "frequency_Hz": 0.02685546875,
+                "value": 0.18964969709259347
+              },
+              {
+                "index": 54,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.29156544972740395
+              },
+              {
+                "index": 56,
+                "frequency_Hz": 0.02880859375,
+                "value": 0.1885378863428873
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.2400757905629741
+              },
+              {
+                "index": 61,
+                "frequency_Hz": 0.03125,
+                "value": 0.2915328015221195
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03369140625,
+                "value": 0.09490390136454556
+              },
+              {
+                "index": 70,
+                "frequency_Hz": 0.03564453125,
+                "value": 0.14325450348392546
+              },
+              {
+                "index": 76,
+                "frequency_Hz": 0.03857421875,
+                "value": 0.20141188277976244
+              },
+              {
+                "index": 78,
+                "frequency_Hz": 0.03955078125,
+                "value": 0.16083062064689282
+              },
+              {
+                "index": 81,
+                "frequency_Hz": 0.041015625,
+                "value": 0.1367406561243034
+              },
+              {
+                "index": 84,
+                "frequency_Hz": 0.04248046875,
+                "value": 0.1436855633463974
+              },
+              {
+                "index": 87,
+                "frequency_Hz": 0.0439453125,
+                "value": 0.13318988367701828
+              },
+              {
+                "index": 90,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.07968495572502711
+              },
+              {
+                "index": 92,
+                "frequency_Hz": 0.04638671875,
+                "value": 0.11634304565178306
+              },
+              {
+                "index": 97,
+                "frequency_Hz": 0.048828125,
+                "value": 0.09139045524190936
+              }
+            ],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.00146484375,
+              "value": 165.43888763127845,
+              "is_endpoint": true
+            }
+          },
+          "Welch_band_integral_nT2": 0.10720228463202165,
+          "wavelet_band_integral_nT2": 0.2654320531692634,
+          "Welch_preprocessing": "Same full-record mean-subtracted component. Hann segments 2048 samples; 50% overlap; no per-segment detrending. Wavelet uses frequency-dependent COI masks, so effective time/frequency smoothing differs."
+        },
+        "Bparallel": {
+          "original_cache_reproduction": {
+            "max_absolute": 0.0,
+            "relative_L2": 0.0,
+            "max_pointwise_relative": 0.0,
+            "status": "checked",
+            "pass": true,
+            "note": "Historical reproduction is reported independently; a different library's legacy behavior does not prevent the calibrated calculation or its tests."
+          },
+          "precision12_vs_final": {
+            "max_absolute": 674.9485778378928,
+            "relative_L2": 2.343577663512164,
+            "max_pointwise_relative": 2.906864631825482
+          },
+          "precision16_vs_final": {
+            "max_absolute": 9.141137163275971,
+            "relative_L2": 0.008740315747366972,
+            "max_pointwise_relative": 0.012471890827743718
+          },
+          "precision18_vs_final": {
+            "max_absolute": 0.746106417346823,
+            "relative_L2": 0.0005428402725627623,
+            "max_pointwise_relative": 0.0008231592815129471
+          },
+          "precision_peaks": {
+            "12": {
+              "all_local_maxima_in_frequency_order": [],
+              "highest_interior_local_maximum": null,
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.001,
+                "value": 232.19126561598154,
+                "is_endpoint": true
+              }
+            },
+            "16": {
+              "all_local_maxima_in_frequency_order": [],
+              "highest_interior_local_maximum": null,
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.001,
+                "value": 902.5262807379304,
+                "is_endpoint": true
+              }
+            },
+            "18": {
+              "all_local_maxima_in_frequency_order": [],
+              "highest_interior_local_maximum": null,
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.001,
+                "value": 906.3937370365275,
+                "is_endpoint": true
+              }
+            },
+            "20": {
+              "all_local_maxima_in_frequency_order": [],
+              "highest_interior_local_maximum": null,
+              "all_local_maxima_above_3mHz": [],
+              "global_maximum": {
+                "index": 0,
+                "frequency_Hz": 0.001,
+                "value": 907.1398434538743,
+                "is_endpoint": true
+              }
+            }
+          },
+          "Welch_peaks_in_same_frequency_band": {
+            "all_local_maxima_in_frequency_order": [
+              {
+                "index": 5,
+                "frequency_Hz": 0.00390625,
+                "value": 16.57750445663704
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00537109375,
+                "value": 8.354560732041454
+              },
+              {
+                "index": 11,
+                "frequency_Hz": 0.0068359375,
+                "value": 6.059201725867831
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.0078125,
+                "value": 5.955776003312146
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01123046875,
+                "value": 3.325569044036859
+              },
+              {
+                "index": 23,
+                "frequency_Hz": 0.0126953125,
+                "value": 1.6120667246405354
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.013671875,
+                "value": 1.2451663128352635
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0146484375,
+                "value": 1.3514501610654424
+              },
+              {
+                "index": 29,
+                "frequency_Hz": 0.015625,
+                "value": 1.5441100805271788
+              },
+              {
+                "index": 32,
+                "frequency_Hz": 0.01708984375,
+                "value": 1.01548752145827
+              },
+              {
+                "index": 34,
+                "frequency_Hz": 0.01806640625,
+                "value": 1.1406897332034178
+              },
+              {
+                "index": 38,
+                "frequency_Hz": 0.02001953125,
+                "value": 0.8352057371780957
+              },
+              {
+                "index": 40,
+                "frequency_Hz": 0.02099609375,
+                "value": 0.8454422264521604
+              },
+              {
+                "index": 42,
+                "frequency_Hz": 0.02197265625,
+                "value": 0.768955149015918
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.6823694502423504
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.025390625,
+                "value": 0.5957232472128602
+              },
+              {
+                "index": 54,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.6239324511891837
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.4989594962582364
+              },
+              {
+                "index": 61,
+                "frequency_Hz": 0.03125,
+                "value": 0.3953683195590623
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.361844239577168
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03369140625,
+                "value": 0.33347716555325185
+              },
+              {
+                "index": 68,
+                "frequency_Hz": 0.03466796875,
+                "value": 0.2540343301690578
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03662109375,
+                "value": 0.25077065923318237
+              },
+              {
+                "index": 75,
+                "frequency_Hz": 0.0380859375,
+                "value": 0.21653498645333571
+              },
+              {
+                "index": 80,
+                "frequency_Hz": 0.04052734375,
+                "value": 0.3911239665497838
+              },
+              {
+                "index": 83,
+                "frequency_Hz": 0.0419921875,
+                "value": 0.21075590155489243
+              },
+              {
+                "index": 90,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.14128080679176788
+              },
+              {
+                "index": 95,
+                "frequency_Hz": 0.0478515625,
+                "value": 0.2051871623406171
+              },
+              {
+                "index": 98,
+                "frequency_Hz": 0.04931640625,
+                "value": 0.18152708715714985
+              }
+            ],
+            "highest_interior_local_maximum": {
+              "index": 5,
+              "frequency_Hz": 0.00390625,
+              "value": 16.57750445663704
+            },
+            "all_local_maxima_above_3mHz": [
+              {
+                "index": 5,
+                "frequency_Hz": 0.00390625,
+                "value": 16.57750445663704
+              },
+              {
+                "index": 8,
+                "frequency_Hz": 0.00537109375,
+                "value": 8.354560732041454
+              },
+              {
+                "index": 11,
+                "frequency_Hz": 0.0068359375,
+                "value": 6.059201725867831
+              },
+              {
+                "index": 13,
+                "frequency_Hz": 0.0078125,
+                "value": 5.955776003312146
+              },
+              {
+                "index": 20,
+                "frequency_Hz": 0.01123046875,
+                "value": 3.325569044036859
+              },
+              {
+                "index": 23,
+                "frequency_Hz": 0.0126953125,
+                "value": 1.6120667246405354
+              },
+              {
+                "index": 25,
+                "frequency_Hz": 0.013671875,
+                "value": 1.2451663128352635
+              },
+              {
+                "index": 27,
+                "frequency_Hz": 0.0146484375,
+                "value": 1.3514501610654424
+              },
+              {
+                "index": 29,
+                "frequency_Hz": 0.015625,
+                "value": 1.5441100805271788
+              },
+              {
+                "index": 32,
+                "frequency_Hz": 0.01708984375,
+                "value": 1.01548752145827
+              },
+              {
+                "index": 34,
+                "frequency_Hz": 0.01806640625,
+                "value": 1.1406897332034178
+              },
+              {
+                "index": 38,
+                "frequency_Hz": 0.02001953125,
+                "value": 0.8352057371780957
+              },
+              {
+                "index": 40,
+                "frequency_Hz": 0.02099609375,
+                "value": 0.8454422264521604
+              },
+              {
+                "index": 42,
+                "frequency_Hz": 0.02197265625,
+                "value": 0.768955149015918
+              },
+              {
+                "index": 46,
+                "frequency_Hz": 0.02392578125,
+                "value": 0.6823694502423504
+              },
+              {
+                "index": 49,
+                "frequency_Hz": 0.025390625,
+                "value": 0.5957232472128602
+              },
+              {
+                "index": 54,
+                "frequency_Hz": 0.02783203125,
+                "value": 0.6239324511891837
+              },
+              {
+                "index": 59,
+                "frequency_Hz": 0.0302734375,
+                "value": 0.4989594962582364
+              },
+              {
+                "index": 61,
+                "frequency_Hz": 0.03125,
+                "value": 0.3953683195590623
+              },
+              {
+                "index": 63,
+                "frequency_Hz": 0.0322265625,
+                "value": 0.361844239577168
+              },
+              {
+                "index": 66,
+                "frequency_Hz": 0.03369140625,
+                "value": 0.33347716555325185
+              },
+              {
+                "index": 68,
+                "frequency_Hz": 0.03466796875,
+                "value": 0.2540343301690578
+              },
+              {
+                "index": 72,
+                "frequency_Hz": 0.03662109375,
+                "value": 0.25077065923318237
+              },
+              {
+                "index": 75,
+                "frequency_Hz": 0.0380859375,
+                "value": 0.21653498645333571
+              },
+              {
+                "index": 80,
+                "frequency_Hz": 0.04052734375,
+                "value": 0.3911239665497838
+              },
+              {
+                "index": 83,
+                "frequency_Hz": 0.0419921875,
+                "value": 0.21075590155489243
+              },
+              {
+                "index": 90,
+                "frequency_Hz": 0.04541015625,
+                "value": 0.14128080679176788
+              },
+              {
+                "index": 95,
+                "frequency_Hz": 0.0478515625,
+                "value": 0.2051871623406171
+              },
+              {
+                "index": 98,
+                "frequency_Hz": 0.04931640625,
+                "value": 0.18152708715714985
+              }
+            ],
+            "global_maximum": {
+              "index": 0,
+              "frequency_Hz": 0.00146484375,
+              "value": 254.57372868380915,
+              "is_endpoint": true
+            }
+          },
+          "Welch_band_integral_nT2": 0.20081764243675365,
+          "wavelet_band_integral_nT2": 0.4510124963304191,
+          "Welch_preprocessing": "Same full-record mean-subtracted component. Hann segments 2048 samples; 50% overlap; no per-segment detrending. Wavelet uses frequency-dependent COI masks, so effective time/frequency smoothing differs."
+        }
+      },
+      "filter_response": {
+        "minimum_mainband_energy_fraction": 0.9998217792448013,
+        "maximum_negative_frequency_energy_fraction": 2.8905365444957958e-05,
+        "Q_min_max": [
+          0.3230206613851938,
+          0.32575278058819934
+        ],
+        "white_noise_gain_after_COI_min_max": [
+          0.997781297504563,
+          0.9999738984655406
+        ],
+        "remaining_edge_effect": "COI removes the conventional power e^-2 boundary region, not all nonzero wavelet tails. Residual finite-record white-noise gain is reported, not renormalized away."
+      },
+      "precision18_vs_final_max_relative_difference": 0.0008231976153129415,
+      "precision18_vs_final_below_0_1percent": true
+    }
+  },
+  "Welch_parameters": {
+    "fs": 1.0,
+    "window": "hann",
+    "nperseg": 2048,
+    "noverlap": 1024,
+    "nfft": 2048,
+    "detrend": false,
+    "scaling": "density",
+    "return_onesided": true,
+    "average": "mean"
+  },
+  "synthetic_tests": {
+    "white_noise": {
+      "seed": 2026101602,
+      "N": 8192,
+      "replicates": 128,
+      "input_population_variance": 1.0,
+      "frequency_Hz": [
+        0.001,
+        0.003,
+        0.004211917906742496,
+        0.01,
+        0.05
+      ],
+      "ideal_one_sided_PSD": 2.0,
+      "expected_after_exact_finite_demean_COI": [
+        1.9963349137857564,
+        1.9990650588975374,
+        1.9993517655331976,
+        1.9997438567917447,
+        1.9999541524755666
+      ],
+      "mean_estimate": [
+        2.043832076575235,
+        2.005418173904491,
+        1.9569307187833975,
+        1.9535882708815557,
+        1.9993737121978428
+      ],
+      "standard_error": [
+        0.10190485930402589,
+        0.052452844999676375,
+        0.045426379885609595,
+        0.030206314696968342,
+        0.012820759345932905
+      ],
+      "z_scores": [
+        0.46609320805570503,
+        0.1211205037018062,
+        -0.933841676502125,
+        -1.5280111583695242,
+        -0.045273471099665466
+      ],
+      "pass": true
+    },
+    "sinusoid": {
+      "input_frequency_Hz": 0.004211917906742496,
+      "input_amplitude_nT": 1.4142135623730951,
+      "phase_count": 16,
+      "N": 8192,
+      "measured_peak": {
+        "index": 23,
+        "frequency_Hz": 0.004152789850272649,
+        "value": 732.0578126865458
+      },
+      "predicted_peak": {
+        "index": 23,
+        "frequency_Hz": 0.004152789850272649,
+        "value": 732.0578126865456
+      },
+      "peak_relative_offset_from_input": -0.014038273722095651,
+      "PSD_vs_independent_kernel_prediction": {
+        "max_absolute": 2.2737367544323206e-13,
+        "relative_L2": 2.1017751689594416e-16,
+        "max_pointwise_relative": 1.2125176371129173e-14
+      },
+      "pass": true,
+      "interpretation": "Frequency-dependent Morlet smoothing can shift a sinusoid's PSD peak slightly; test against filter prediction, not an invented requirement of exact input-frequency recovery."
+    }
+  },
+  "elapsed_seconds": 21.644315719604492,
+  "convergence_pass": true
+}

@@ -1,15 +1,17 @@
-# Scripts and manuscript figures
+# Figure-to-code map
 
-| Figure / analysis | Relevant scripts | Reproduction scope |
+| Figure | Entry / source | Demonstrated scope |
 | --- | --- | --- |
-| Main theory figure | `theory/solve.py`, `theory/solve_8.py` | Supplied polynomial-root calculations; correspondence to the final model/figure needs verification |
-| Main HST auroral image | None in the supplied analysis package | Public observations linked in `DATA_SOURCES.md`; HST reduction/map code is not included |
-| Main May 16 field/CWT figure | `juno_ulf_analysis/run_field_plot.py`, `run_cwt.py` | Constituent plots; the supplied modular CWT grid is 3-50 mHz; final combined layout is not assembled here |
-| Main May 16 spectral figure | `juno_ulf_analysis/run_psd.py` | Full-window raw-coefficient wavelet power plus active-period ion-frequency quartiles |
-| SM Fig. S1 band-pass | `juno_ulf_analysis/run_bandpass.py` | 2-5 mHz signal; current 09:17:40-09:46:44 shaded interval |
-| SM Fig. S2 quiet auroral image | None | HST data source only |
-| SM Fig. S3 quiet five-panel plot | `supplementary/stack_0510.py`, `textlabel.py` | Existing five-panel assembly, 1-50 mHz, imported from the paper workspace |
-| Additional quiet plots | `supplementary/make_quiet_figs.py` | Separate 2-5 mHz band-pass and two wavelet-power plots |
+| Fig1 | `run_analysis.py theory`, `original/theory/solve*.py` | Original polynomial root scripts execute; exact final-branch/figure correspondence not certified |
+| Fig2 (HST) | Archive route in `DATA_SOURCES.md` | HST reduction and auroral mapping not supplied |
+| Fig3 | `run_analysis.py figures`, `code/plot_fig3.py`, `data/main_display_arrays.npz` | Replot archived current CWT amplitudes; optional numerical rerun is separate `cwt` task |
+| Fig4 | `run_analysis.py psd` then `figures` | Full PSD recomputation and current figure plotting |
+| S1 | `run_analysis.py bandpass` | Field decomposition, 2–5 mHz filtering, plot and numerical series |
+| S2 (HST) | Archive route in `DATA_SOURCES.md` | HST reduction and auroral mapping not supplied |
+| S3(a–c) | `code/plot_quiet_psd.py`, `data/quiet_display_arrays.npz` | Original archived field/CWT panels retained |
+| S3(d,e) | `run_analysis.py psd` then `figures` | Quiet-event PSD recomputed and plotted in current display range |
 
-This mapping makes the available code's coverage explicit; it is not a
-certification of exact reproduction of every final manuscript figure.
+The archived figure PNGs and numerical source arrays serve different
+purposes. Plotting from a saved array demonstrates plotting reproducibility;
+the separate PSD rerun demonstrates the supplied field-window-to-PSD step.
+This is not a claim of raw-instrument-to-every-figure reproduction.

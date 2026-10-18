@@ -1,445 +1,158 @@
 {
-  "packaging_date": "2026-10-05",
-  "source_files_unchanged": true,
+  "package_version": "1.1.0",
+  "status": "local release candidate",
+  "years": [
+    2017
+  ],
   "files": [
     {
-      "file": "legacy/bandpass_juno_20170317.py",
-      "source": "py_code/bandpass_juno_20170317.py",
-      "source_sha256": "650c6a0b0ce91990ce1194018b230ceafc93d70ddfb29f3138b7fa0eab956fab",
-      "packaged_sha256": "650c6a0b0ce91990ce1194018b230ceafc93d70ddfb29f3138b7fa0eab956fab",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\main_timeseries.csv",
+      "destination": "data/main_timeseries.csv",
+      "source_sha256": "fe96ca2bb8bdeef4f7b5d9bbef701b69ab641abccae3a1dde7741723bb1bf7de",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/bandpass_juno_20170317_Bpar_perp.py",
-      "source": "py_code/bandpass_juno_20170317_Bpar_perp.py",
-      "source_sha256": "aaac6d3f323200a946199a1e1526beb013e6d0c01e0d676102f8ea896ea63417",
-      "packaged_sha256": "aaac6d3f323200a946199a1e1526beb013e6d0c01e0d676102f8ea896ea63417",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_timeseries.csv",
+      "destination": "data/quiet_timeseries.csv",
+      "source_sha256": "3484133757ab848388728b3fc1172f6ad1ac3a5460e28146a0f6def8784ef503",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/bandpass_juno_20170317_perp.py",
-      "source": "py_code/bandpass_juno_20170317_perp.py",
-      "source_sha256": "cf2dc1d640ed4369c3bc167e870bf46ae14a7704bc1478120742a95fc31b6f2a",
-      "packaged_sha256": "cf2dc1d640ed4369c3bc167e870bf46ae14a7704bc1478120742a95fc31b6f2a",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_display_arrays.npz",
+      "destination": "data/quiet_display_arrays.npz",
+      "source_sha256": "108f9ab61779bcaecef64a40201858abf678735f58dd7d8d54727d396f77b4ee",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/bandpass_juno_20170317_perp_mag.py",
-      "source": "py_code/bandpass_juno_20170317_perp_mag.py",
-      "source_sha256": "8b396372be771450516b414fafed511b137265f8e9b3faa798a0f98935ae2019",
-      "packaged_sha256": "8b396372be771450516b414fafed511b137265f8e9b3faa798a0f98935ae2019",
-      "modified_in_package": false
+      "source": ".font_only_20261016\\title_cleanup_generated_inputs\\source_original_cwt_arrays.npz",
+      "destination": "data/main_display_arrays.npz",
+      "source_sha256": "26b64108a46eab93410708b6c2bdc390fa0156a748cb723797982a7cd2885cdd",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/bandpass_perp_mag_20170516.py",
-      "source": "py_code/bandpass_perp_mag_20170516.py",
-      "source_sha256": "0c6bb093e2cad10ee811824d6ccabafae444f2314c4201adcce7053652f9ae3e",
-      "packaged_sha256": "0c6bb093e2cad10ee811824d6ccabafae444f2314c4201adcce7053652f9ae3e",
-      "modified_in_package": false
+      "source": ".prl_revision_20261016\\figures_sm\\FigS1_source_data.csv",
+      "destination": "data/FigS1_reference.csv",
+      "source_sha256": "94eb647536c5804709d7c9b22f669e174de91211ae5c71f70c44961e72bfa630",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/cwt_multy.py",
-      "source": "py_code/cwt_multy.py",
-      "source_sha256": "ef9edddffc8f33faca5cd8dfd04026cfa4a673f02666899b81634a1e4c0681cd",
-      "packaged_sha256": "ef9edddffc8f33faca5cd8dfd04026cfa4a673f02666899b81634a1e4c0681cd",
-      "modified_in_package": false
+      "source": "PSD显示范围更新_20261018\\data\\main_psd.csv",
+      "destination": "data/main_psd.csv",
+      "source_sha256": "e9dd300f807306d6a64c2392c872bbecad0068546e953066a482d5f1279be1cd",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/cwt_perp.py",
-      "source": "py_code/cwt_perp.py",
-      "source_sha256": "db2ede6bb602a50dd3d589318f9df12dbfc3c98202116ec1dd861614137e4154",
-      "packaged_sha256": "db2ede6bb602a50dd3d589318f9df12dbfc3c98202116ec1dd861614137e4154",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\main_Bperp_Welch.csv",
+      "destination": "data/main_Bperp_Welch.csv",
+      "source_sha256": "2b04d7a73c2c9d5637f0c8e7d33531cac1b450bfe03a64f1185c3156defe9d60",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/e_flux.py",
-      "source": "py_code/e_flux.py",
-      "source_sha256": "d55625b1fbc71f0374f24b0e2c28ee8eb05d97f9244080fa418499898a98a4aa",
-      "packaged_sha256": "d55625b1fbc71f0374f24b0e2c28ee8eb05d97f9244080fa418499898a98a4aa",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\main_Bperp_original_raw_spectrum.csv",
+      "destination": "data/main_Bperp_original_raw_spectrum.csv",
+      "source_sha256": "967aa6192b6c40311c89f32bc347e2d4f57a56b1d835f49b32db8c59524394a4",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/find_e_period.py",
-      "source": "py_code/find_e_period.py",
-      "source_sha256": "ae02ad1bb016f56557fe0bc131782a871db5039dc0f7b127e393a417b72a867f",
-      "packaged_sha256": "ae02ad1bb016f56557fe0bc131782a871db5039dc0f7b127e393a417b72a867f",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\main_Bparallel_Welch.csv",
+      "destination": "data/main_Bparallel_Welch.csv",
+      "source_sha256": "18517610cc3920408fef1ac3ae808129371aa78369c5aa11a0f2aaad0906bb62",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/find_period_excel.py",
-      "source": "py_code/find_period_excel.py",
-      "source_sha256": "44cbaf959da64d54c99d616a33f0f704d597a000703ad1121158f73c67fad83d",
-      "packaged_sha256": "44cbaf959da64d54c99d616a33f0f704d597a000703ad1121158f73c67fad83d",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\main_Bparallel_original_raw_spectrum.csv",
+      "destination": "data/main_Bparallel_original_raw_spectrum.csv",
+      "source_sha256": "854edb813c4556b2ec6df73e0ceb5d924ce7afb915e280c1d916c8db883d265a",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/find_period_multy.py",
-      "source": "py_code/find_period_multy.py",
-      "source_sha256": "e3c7a85b29929860a91625c771d647252dd895dc45229ccb2459d3adc572eaa5",
-      "packaged_sha256": "e3c7a85b29929860a91625c771d647252dd895dc45229ccb2459d3adc572eaa5",
-      "modified_in_package": false
+      "source": "PSD显示范围更新_20261018\\data\\quiet_psd.csv",
+      "destination": "data/quiet_psd.csv",
+      "source_sha256": "f6208216d54d889530c579fd0e7e99a139cbbe73c42ad047bdd2d147edc16770",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/main.py",
-      "source": "py_code/main.py",
-      "source_sha256": "9efb4ab19eeb9e9f9576595515fdfcfbcb616c8f0d6dc3943f0920d6ae223efe",
-      "packaged_sha256": "9efb4ab19eeb9e9f9576595515fdfcfbcb616c8f0d6dc3943f0920d6ae223efe",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_Bperp_Welch.csv",
+      "destination": "data/quiet_Bperp_Welch.csv",
+      "source_sha256": "800989beca9c096b3659964bc8c135190ddee268d83623876a113d3121e2b604",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/pic.py",
-      "source": "py_code/pic.py",
-      "source_sha256": "53ffa3900854911a7dc61a7e300e53715787383bba70a94f922fbaa05e23cfb7",
-      "packaged_sha256": "53ffa3900854911a7dc61a7e300e53715787383bba70a94f922fbaa05e23cfb7",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_Bperp_original_raw_spectrum.csv",
+      "destination": "data/quiet_Bperp_original_raw_spectrum.csv",
+      "source_sha256": "331e2d5af0c129bfaa4337b034ec6e8c3b7cca75342fe9765d49b8d38fbbcf13",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/plot_field_rtp_psd3e-3.py",
-      "source": "py_code/plot_field_rtp_psd3e-3.py",
-      "source_sha256": "6d3827e392c5f9e84ef72a640d65c213b4bc7efecc7f4dec66cb9089e2832100",
-      "packaged_sha256": "6d3827e392c5f9e84ef72a640d65c213b4bc7efecc7f4dec66cb9089e2832100",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_Bparallel_Welch.csv",
+      "destination": "data/quiet_Bparallel_Welch.csv",
+      "source_sha256": "70776f781c4bd699ac41d597b6231f09bdea2c6e83fffb1beb48157cea9ed453",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/position.py",
-      "source": "py_code/position.py",
-      "source_sha256": "e4816bcf9032f9bea57a1b7719394c013eb4bce57fbefa1d482aecd7875166aa",
-      "packaged_sha256": "e4816bcf9032f9bea57a1b7719394c013eb4bce57fbefa1d482aecd7875166aa",
-      "modified_in_package": false
+      "source": "PSD重算_20261016\\data\\quiet_Bparallel_original_raw_spectrum.csv",
+      "destination": "data/quiet_Bparallel_original_raw_spectrum.csv",
+      "source_sha256": "c534ec64201700d565c6003649fbd8841b0fc0677b77bbafd787d36971a192f9",
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/process_juno_data_multy.py",
-      "source": "py_code/process_juno_data_multy.py",
-      "source_sha256": "025e53856031f77212058d838dc09fd7b7b2b5fdbca96ba7a1b9718feae0fc15",
-      "packaged_sha256": "025e53856031f77212058d838dc09fd7b7b2b5fdbca96ba7a1b9718feae0fc15",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_Bpar_3e-3.py",
-      "source": "py_code/PSD_Bpar_3e-3.py",
-      "source_sha256": "eb5977ba7b0c7ccebcc541d4eff9f87aa3da8cea80582f7b58f7f54d74d697a3",
-      "packaged_sha256": "eb5977ba7b0c7ccebcc541d4eff9f87aa3da8cea80582f7b58f7f54d74d697a3",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_current_2h.py",
-      "source": "py_code/PSD_current_2h.py",
-      "source_sha256": "4e5351c1a207f95097a956a8fe966e5687f6bb1deab67dedd02dde6a7c4aebfe",
-      "packaged_sha256": "4e5351c1a207f95097a956a8fe966e5687f6bb1deab67dedd02dde6a7c4aebfe",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_fci_band.py",
-      "source": "py_code/PSD_fci_band.py",
-      "source_sha256": "4a55b29ecc98d81e3b92589f46ed8fcbe6c33ee7f725fa974e69ca849b0a02cc",
-      "packaged_sha256": "4a55b29ecc98d81e3b92589f46ed8fcbe6c33ee7f725fa974e69ca849b0a02cc",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_peak_time_window.py",
-      "source": "py_code/PSD_peak_time_window.py",
-      "source_sha256": "0e94fa777047c6f5ab68d424ace69786c135e152461d4c673bda11146684b0ba",
-      "packaged_sha256": "0e94fa777047c6f5ab68d424ace69786c135e152461d4c673bda11146684b0ba",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_perp.py",
-      "source": "py_code/PSD_perp.py",
-      "source_sha256": "f020dcd9c3fbd29fdb9a8a496602a11601cdf799e13225c00c2aa894c0323dd2",
-      "packaged_sha256": "f020dcd9c3fbd29fdb9a8a496602a11601cdf799e13225c00c2aa894c0323dd2",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_storm.py",
-      "source": "py_code/PSD_storm.py",
-      "source_sha256": "c75bb700fbe821e6ad876dbaf2b85c886be6d97c5efde28e357fd176df58bef3",
-      "packaged_sha256": "c75bb700fbe821e6ad876dbaf2b85c886be6d97c5efde28e357fd176df58bef3",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_storm_cwt_1e-3.py",
-      "source": "py_code/PSD_storm_cwt_1e-3.py",
-      "source_sha256": "c2220dd58fc8db03abd5198168e59f8db46dd44ee5450d44cc8bae5e136a3f3e",
-      "packaged_sha256": "c2220dd58fc8db03abd5198168e59f8db46dd44ee5450d44cc8bae5e136a3f3e",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSD_storm_inside.py",
-      "source": "py_code/PSD_storm_inside.py",
-      "source_sha256": "4b26434a270b72f66fd7ab238b1fecae305fdba555094ff987f2faa49be46064",
-      "packaged_sha256": "4b26434a270b72f66fd7ab238b1fecae305fdba555094ff987f2faa49be46064",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/PSDmulty.py",
-      "source": "py_code/PSDmulty.py",
-      "source_sha256": "08822bbe1491c9c641a0d48f767dd85ea72c0d8d7329404febad9a1787169be6",
-      "packaged_sha256": "08822bbe1491c9c641a0d48f767dd85ea72c0d8d7329404febad9a1787169be6",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/regenerate_20170516_bandpass.py",
-      "source": "py_code/regenerate_20170516_bandpass.py",
-      "source_sha256": "fa1adc407847b2ebe9875f955c59082873db90b435eec888c5c3933fe1f3c252",
-      "packaged_sha256": "fa1adc407847b2ebe9875f955c59082873db90b435eec888c5c3933fe1f3c252",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/solve.py",
-      "source": "py_code/solve.py",
-      "source_sha256": "b87958c8f1d960c2c12d3548af3883655c55db82d657b688544c035df99c5e93",
-      "packaged_sha256": "b87958c8f1d960c2c12d3548af3883655c55db82d657b688544c035df99c5e93",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/solve_8.py",
-      "source": "py_code/solve_8.py",
-      "source_sha256": "58971b3e0d434c14e228d7b14d5e9ec08550e850b0c0399f1cd9f135e9b13eb8",
-      "packaged_sha256": "58971b3e0d434c14e228d7b14d5e9ec08550e850b0c0399f1cd9f135e9b13eb8",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/_init_.py",
-      "source": "py_code/tool/_init_.py",
-      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "packaged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/calculate_corotation_velocity.py",
-      "source": "py_code/tool/calculate_corotation_velocity.py",
-      "source_sha256": "74826517af3866496f625535430bfbba55beeca7e60913f0b81150bdc5120194",
-      "packaged_sha256": "74826517af3866496f625535430bfbba55beeca7e60913f0b81150bdc5120194",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/convert_time_to_seconds.py",
-      "source": "py_code/tool/convert_time_to_seconds.py",
-      "source_sha256": "6d615103eeda981e5251cb3fd69c2e33fce9a24f08560c6c1aee9693f7f53633",
-      "packaged_sha256": "6d615103eeda981e5251cb3fd69c2e33fce9a24f08560c6c1aee9693f7f53633",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/distinguish.py",
-      "source": "py_code/tool/distinguish.py",
-      "source_sha256": "c452bd050de05c2f54d65035413ef61fd4ce123f58ad3abcd8f455d05d3eda61",
-      "packaged_sha256": "c452bd050de05c2f54d65035413ef61fd4ce123f58ad3abcd8f455d05d3eda61",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/fit_harris_model.py",
-      "source": "py_code/tool/fit_harris_model.py",
-      "source_sha256": "2f8d847cd7976f18086d39d95fe1e84d71124e64f9941e45b515f38a3eb5c8d8",
-      "packaged_sha256": "2f8d847cd7976f18086d39d95fe1e84d71124e64f9941e45b515f38a3eb5c8d8",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/perform_mva.py",
-      "source": "py_code/tool/perform_mva.py",
-      "source_sha256": "9d55e503038133152d3bb48ce6ec56402dc9fa45d4a696b5551c00881239fc57",
-      "packaged_sha256": "9d55e503038133152d3bb48ce6ec56402dc9fa45d4a696b5551c00881239fc57",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/plot.py",
-      "source": "py_code/tool/plot.py",
-      "source_sha256": "d0e1b40be725b747f767596cd0177431aa8013d9b7103582092ffa6175ad704f",
-      "packaged_sha256": "d0e1b40be725b747f767596cd0177431aa8013d9b7103582092ffa6175ad704f",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/process_juno_data.py",
-      "source": "py_code/tool/process_juno_data.py",
-      "source_sha256": "c5e4f17b56399ea4a73f74d3481924f01ea57df6e7d34e5f12605e3297c8b65b",
-      "packaged_sha256": "c5e4f17b56399ea4a73f74d3481924f01ea57df6e7d34e5f12605e3297c8b65b",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/PSD.py",
-      "source": "py_code/tool/PSD.py",
-      "source_sha256": "e8fbe6e3bc9841f1942fa566af75c5e5ad8e28561c65dc4a2c2dcac5b28b667e",
-      "packaged_sha256": "e8fbe6e3bc9841f1942fa566af75c5e5ad8e28561c65dc4a2c2dcac5b28b667e",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/validate_mva.py",
-      "source": "py_code/tool/validate_mva.py",
-      "source_sha256": "36a2b7be4e189885935a8de2f274d6699d07810c5face77ff6014095d160c523",
-      "packaged_sha256": "36a2b7be4e189885935a8de2f274d6699d07810c5face77ff6014095d160c523",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/tool/wavelet.py",
-      "source": "py_code/tool/wavelet.py",
+      "source": "original-code/wavelet.py",
+      "destination": "original/tool/wavelet.py",
       "source_sha256": "69b76e8c0299d5acf136681f50990bb4a1d3b348fa497e04d342c4303ed62c1a",
-      "packaged_sha256": "69b76e8c0299d5acf136681f50990bb4a1d3b348fa497e04d342c4303ed62c1a",
-      "modified_in_package": false
+      "changes": "byte-identical copy"
     },
     {
-      "file": "legacy/input_dates.txt",
-      "source": "py_code/input_dates.txt",
-      "source_sha256": "0168bb0123e612c4b9d25cd411d50eab02007ac3a5a866ecce84556c231bd2c7",
-      "packaged_sha256": "0168bb0123e612c4b9d25cd411d50eab02007ac3a5a866ecce84556c231bd2c7",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/storm.txt",
-      "source": "py_code/storm.txt",
-      "source_sha256": "e855f193a41a15ac51efaa9f313f7ebdab656db283cd9b7c5bd97d7c35eb2261",
-      "packaged_sha256": "e855f193a41a15ac51efaa9f313f7ebdab656db283cd9b7c5bd97d7c35eb2261",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/juno_ulf_analysis_config.py",
-      "source": "py_code/juno_ulf_analysis/config.py",
-      "source_sha256": "a8bf4a710c59f64a4a5c0ecabd036dbb8874faecab59edb6a3d937b7c71eaf72",
-      "packaged_sha256": "a8bf4a710c59f64a4a5c0ecabd036dbb8874faecab59edb6a3d937b7c71eaf72",
-      "modified_in_package": false
-    },
-    {
-      "file": "legacy/juno_ulf_analysis_README.md",
-      "source": "py_code/juno_ulf_analysis/README.md",
-      "source_sha256": "bd3f7848a62c058620c8485912ed0a0d99306418455141fe5065436884d12fa1",
-      "packaged_sha256": "bd3f7848a62c058620c8485912ed0a0d99306418455141fe5065436884d12fa1",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/config.py",
-      "source": "py_code/juno_ulf_analysis/config.py",
-      "source_sha256": "a8bf4a710c59f64a4a5c0ecabd036dbb8874faecab59edb6a3d937b7c71eaf72",
-      "packaged_sha256": "37a4e4e3d24f4280779e0c432b5f04fadb78d1fad22f7535319aba382d0b12eb",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/__init__.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/__init__.py",
-      "source_sha256": "d5ffad0095f505627ab956d1638a6be9aadf3dd73f4a7a938c5261e17291fd84",
-      "packaged_sha256": "b86e6cb5ebb42b37ba2ee42b767d0b4b5194a28d719e735d8a823ce3c270617b",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/bandpass.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/bandpass.py",
-      "source_sha256": "fd402c45ce9a16e9a2863437cace187e8ce84eec91d667737d02a2c59ccdb795",
-      "packaged_sha256": "fd402c45ce9a16e9a2863437cace187e8ce84eec91d667737d02a2c59ccdb795",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/components.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/components.py",
-      "source_sha256": "c878aa798a93f29dedadb9f66a980f5350ecb9c6b62650fb86b9a442a37b837b",
-      "packaged_sha256": "5dcaf4b6fe993ab28c825846d1993bc9885a8a9b70f16b6b671f35a84b0d0a30",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/cwt.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/cwt.py",
-      "source_sha256": "9497c2559738e921e55e89830dec5a2043573a144045e2031351c5dc32f82764",
-      "packaged_sha256": "9497c2559738e921e55e89830dec5a2043573a144045e2031351c5dc32f82764",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/data.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/data.py",
-      "source_sha256": "31e3a53b8b67e02f97446ff63e69758e25b8a260d697b606c506864796b5a203",
-      "packaged_sha256": "293523a3fcba0e5173eda33e8d8aeaa49581679cf2e842cb31e53e9df6f46792",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/plotting.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/plotting.py",
-      "source_sha256": "96079d1e2317a4afcde23c7dd2a538248f1834d8cbfb291e2efd0f3be63ba2bc",
-      "packaged_sha256": "96079d1e2317a4afcde23c7dd2a538248f1834d8cbfb291e2efd0f3be63ba2bc",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/juno_ulf/psd.py",
-      "source": "py_code/juno_ulf_analysis/juno_ulf/psd.py",
-      "source_sha256": "5d5b425fddf88e461c396be4fe2e491cbb12c83b7ea31386268b5c2e1d5d2579",
-      "packaged_sha256": "5d5b425fddf88e461c396be4fe2e491cbb12c83b7ea31386268b5c2e1d5d2579",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/run_bandpass.py",
-      "source": "py_code/juno_ulf_analysis/run_bandpass.py",
-      "source_sha256": "8fbfe13fbd92dd5319a2f1f3c8fda4d3cfb4905aea06f2c8f8b90df376ea1ade",
-      "packaged_sha256": "1e9303eb6fee04d81f43954deac58b7ed997e51545d8810cd867cdeaa658b583",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/run_cwt.py",
-      "source": "py_code/juno_ulf_analysis/run_cwt.py",
-      "source_sha256": "d01d6b043bb6b39e66ac026cc92c5f470e2627a9181b24eec077cb3bc847b49a",
-      "packaged_sha256": "a87295d1f30800df5caf31eb73f602efb6fb80593dc8c7d99a48cb566d230cc8",
-      "modified_in_package": true
-    },
-    {
-      "file": "juno_ulf_analysis/run_field_plot.py",
-      "source": "py_code/juno_ulf_analysis/run_field_plot.py",
-      "source_sha256": "ae05434ba240f551adfe08d5160189fe95425b0fbbbcf2b1ba96d30667410e71",
-      "packaged_sha256": "ae05434ba240f551adfe08d5160189fe95425b0fbbbcf2b1ba96d30667410e71",
-      "modified_in_package": false
-    },
-    {
-      "file": "juno_ulf_analysis/run_psd.py",
-      "source": "py_code/juno_ulf_analysis/run_psd.py",
-      "source_sha256": "2a6d19e7a8977074059ffe41d4db6e5b671df7aa9c20b7b7a811a6f4ad77e878",
-      "packaged_sha256": "33b8f59f12ad76eb2fbf42a02bd62b6f514a72bd02851c4f4ac9436fd9de7fa3",
-      "modified_in_package": true
-    },
-    {
-      "file": "theory/solve.py",
-      "source": "py_code/solve.py",
+      "source": "original-code/solve.py",
+      "destination": "original/theory/solve.py",
       "source_sha256": "b87958c8f1d960c2c12d3548af3883655c55db82d657b688544c035df99c5e93",
-      "packaged_sha256": "51cbec288fe297163d308d6b3710a42bcd5f44c45650bc41808209904552f9bb",
-      "modified_in_package": true
+      "changes": "byte-identical copy"
     },
     {
-      "file": "theory/solve_8.py",
-      "source": "py_code/solve_8.py",
+      "source": "original-code/solve_8.py",
+      "destination": "original/theory/solve_8.py",
       "source_sha256": "58971b3e0d434c14e228d7b14d5e9ec08550e850b0c0399f1cd9f135e9b13eb8",
-      "packaged_sha256": "32d69d751c4834274db5bf1c15f95fb7eff9f9bf290b6b57e8031bc9f0e8c4c4",
-      "modified_in_package": true
+      "changes": "byte-identical copy"
     },
     {
-      "file": "supplementary/stack_0510.py",
-      "source": "paper_workspace/stack_0510.py",
-      "source_sha256": "f4548780f8b322b392fb1888b76e264d208111762c6abde319912d7d6be30188",
-      "packaged_sha256": "d61539b916f11a3a4c18da3404d3cc18684affc921eb78cae12a9faf7d2abdc5",
-      "modified_in_package": true
+      "source": "PSD重算_20261016/code/psd_calibration.py",
+      "destination": "code/psd_calibration.py",
+      "source_sha256": "32251ef9442e04f80c560a504700f4cca35f8886251f39c5320f1586b1c2a7ae",
+      "changes": "portable resource/output paths; remove optional author-workspace caches; make large coefficient export opt-in; numerical operations unchanged"
     },
     {
-      "file": "supplementary/make_quiet_figs.py",
-      "source": "paper_workspace/make_quiet_figs.py",
-      "source_sha256": "659bb6cdc01e1f999cf6aefce9ba93f4805a9c3238bc98e0e5da7e26693fa672",
-      "packaged_sha256": "ee8963feb6d0d568bfa9b056760bcef37caea053f8dfcae71dc1ecd0090bfdd5",
-      "modified_in_package": true
+      "source": "PSD显示范围更新_20261018/code/plot_psd_figures.py",
+      "destination": "code/plot_psd_figures.py",
+      "source_sha256": "7123f97c0ce69ad4c15264c18a49effd6ea8a48a597f14d8db77a1cd30c621e3",
+      "changes": "portable paths; remove dependence on private environment and local layout-audit helper; all data selection, plotting geometry and scientific arrays retained"
     },
     {
-      "file": "supplementary/textlabel.py",
-      "source": "paper_workspace/textlabel.py",
-      "source_sha256": "f21e820245772839c4531fa5e314b7f0de1e526f3ff8a8541fe6ab454bc54208",
-      "packaged_sha256": "09ca70ea5ab1d350c80f6c5c4a5f3fbf12284384e21c9ddd9894d094ffd8d46f",
-      "modified_in_package": true
+      "source": "PSD显示范围更新_20261018/code/plot_quiet_psd.py",
+      "destination": "code/plot_quiet_psd.py",
+      "source_sha256": "d107cb1efc9e5b47a5803bb932b07b225fc2bdb90b82c42659b3a6ce9638cd5a",
+      "changes": "portable paths; remove dependence on private environment and local layout-audit helper; all data selection, plotting geometry and scientific arrays retained"
     },
     {
-      "file": "legacy/juno_ulf_analysis_requirements.txt",
-      "source": "py_code/juno_ulf_analysis/requirements.txt",
-      "source_sha256": "3e80dec52358c8fe4f1b9901dafabb4cf5974f05e008f056d19ce01fe5ec4c90",
-      "packaged_sha256": "3e80dec52358c8fe4f1b9901dafabb4cf5974f05e008f056d19ce01fe5ec4c90",
-      "modified_in_package": false
+      "source": "PSD显示范围更新_20261018\\code\\display_curve.py",
+      "destination": "code/display_curve.py",
+      "source_sha256": "6ad2f21323bc5b55eca0df1c5ecf24ca6e365fbb00794a61522278827be0c76d",
+      "changes": "byte-identical copy"
+    },
+    {
+      "source": "图件字号放大_20261016/code/enlarge_main_figures.py",
+      "destination": "code/plot_fig3.py",
+      "source_sha256": "04734280f302c0095f6f6866b790690af897c65619a6d9e5e4e8e454f0450854",
+      "changes": "Reuse original Fig3 visual functions with bundled source arrays; remove old PSD plot and external caches"
+    },
+    {
+      "source": ".prl_revision_20261016/figures_sm/redraw_sm_figures.py",
+      "destination": "code/plot_bandpass.py",
+      "source_sha256": "096a08ff1d3d126c695d58920e73ca983cc4186ed7d1b62262b7923ed0c695a1",
+      "changes": "Extract the existing S1 numerical/plotting block; portable input/output paths"
     }
   ],
-  "excluded": [
-    ".claude",
-    "__pycache__",
-    "themis_data",
-    "generated output",
-    "_pdf2txt.py",
-    "reference-paper text extracts",
-    "vendored libraries",
-    "wheels",
-    "manuscripts",
-    "observation data"
+  "new_support_files": [
+    "run_analysis.py",
+    "code/check_package.py",
+    "code/recompute_cwt.py"
   ]
 }

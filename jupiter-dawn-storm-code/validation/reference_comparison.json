@@ -1,0 +1,66 @@
+{
+  "events": {
+    "main": {
+      "Bperp_PSD_max_abs_difference": 0.0,
+      "Bparallel_PSD_max_abs_difference": 0.0,
+      "Bperp_CWT_max_abs_difference": 1.6653345369377348e-16,
+      "Bparallel_CWT_max_abs_difference": 4.440892098500626e-16
+    },
+    "quiet": {
+      "Bperp_PSD_max_abs_difference": 0.0,
+      "Bparallel_PSD_max_abs_difference": 0.0,
+      "Bperp_CWT_max_abs_difference": 0.0,
+      "Bparallel_CWT_max_abs_difference": 0.0
+    }
+  },
+  "figures": {
+    "Fig3_reference.png": {
+      "reference_dimensions": [
+        2952,
+        5314
+      ],
+      "render_dimensions": [
+        2952,
+        5314
+      ],
+      "pixel_identical": true,
+      "difference_bbox": null
+    },
+    "Fig4_reference.png": {
+      "reference_dimensions": [
+        4204,
+        2125
+      ],
+      "render_dimensions": [
+        4204,
+        2125
+      ],
+      "pixel_identical": true,
+      "difference_bbox": null
+    },
+    "FigS1_reference.png": {
+      "reference_dimensions": [
+        1800,
+        680
+      ],
+      "render_dimensions": [
+        3779,
+        1417
+      ],
+      "pixel_identical": false
+    },
+    "FigS3_reference.png": {
+      "reference_dimensions": [
+        4204,
+        8362
+      ],
+      "render_dimensions": [
+        4204,
+        8362
+      ],
+      "pixel_identical": true,
+      "difference_bbox": null
+    }
+  },
+  "S1_signal_max_abs_difference_nT": 0.0
+}

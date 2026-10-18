@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the Zenodo record for the exact software version used. This local v1.1.0 candidate has not yet been assigned a new DOI."
+type: software
+title: "Jupiter dawn-storm analysis code"
+version: 1.1.0
+authors:
+  - name: "fymhku"
+abstract: "Analysis and figure-source package for the 2017 Juno dawn-storm and quiet current-sheet crossings, including calibrated wavelet PSD, CWT displays, band-pass filtering and original dispersion root scripts."
+keywords:
+  - Jupiter
+  - Juno
+  - dawn storm
+  - wavelet
+  - power spectral density

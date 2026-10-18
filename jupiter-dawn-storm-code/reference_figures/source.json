@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "Fig3_reference.png",
+    "source": "Jupiter_Dawn_Storm_PRL_final_SJW_copy_v4.docx",
+    "embedded_index": 3,
+    "sha256": "b6d95e1d1130247b406bd73caacdf82d7bc294b990963daf52ba28659fa1978f"
+  },
+  {
+    "figure": "Fig4_reference.png",
+    "source": "Jupiter_Dawn_Storm_PRL_final_SJW_copy_v4.docx",
+    "embedded_index": 4,
+    "sha256": "60f42e77c7b557e345f3c5191fc11fec166c76f1dec16b72183b0e9e92dfda58"
+  },
+  {
+    "figure": "FigS1_reference.png",
+    "source": "Jupiter_Instability_Aurora_PRL_SM_quiet_v2.docx",
+    "embedded_index": 1,
+    "sha256": "9d147cc65d389cc96232e0d244d6d76d0f304f5b7f17773769c70e332cfcf9da"
+  },
+  {
+    "figure": "FigS3_reference.png",
+    "source": "Jupiter_Instability_Aurora_PRL_SM_quiet_v2.docx",
+    "embedded_index": 3,
+    "sha256": "43f222e2fd1acdd5f1cccb344c2671c50f999837621daac19a8dae7ea92e684f"
+  }
+]
